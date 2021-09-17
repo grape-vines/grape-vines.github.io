@@ -94,4 +94,7 @@
     width:230px;
     margin: 30px 0px 0px 0px;
   }
+  .sorts-search-form input{
+    padding-right: 0px;
+  }
 }

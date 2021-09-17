@@ -1,5 +1,6 @@
 html {
   font-family: "IBM Plex Serif", serif;
+  font-size: 14px;
 }
 
 body {
@@ -125,7 +126,7 @@ a {
 .dropbtn.contact {
   position: relative;
   display: inline-block;
-  padding: 26px 16px 10px 16px;
+  padding: 15px 16px 0px 16px;
   min-height: 30px;
 }
 
@@ -141,7 +142,7 @@ a {
 .dropdown {
   position: relative;
   display: inline-block;
-  padding: 16px;
+  padding: 6px;
   min-height: 30px;
 }
 
@@ -290,5 +291,29 @@ a {
     margin-left: 30px;
     margin-right: 30px;
   } 
+  .logo-content-text{
+    margin-top: 0px;
+    font-size: 18px;
+  }
+  .logo-content-date{
+    margin-bottom: 0px;
+  }
+  .logo-img{
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .homeLink{
+    display: none;
+  }
+  .nav-list{
+    margin-left: 15px;
+  }
+  .nav-list li{
+    width: 100px;
+  }
+  .dropbtn.contact{
+    padding: 15px 6px 0px 6px;
+  }
+
 }
 

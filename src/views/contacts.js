@@ -1,5 +1,5 @@
 import { html, until } from "../lib.js";
-import populateMap from "./map.js";
+import populateMap from "../utils/map.js";
 import { spinner } from "./common.js";
 import { createMessage } from "../api/data.js";
 

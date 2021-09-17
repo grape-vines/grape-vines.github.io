@@ -63,7 +63,7 @@
 .invalid-email,
 .invalid-content {
   margin-top: 0;
-  font-size: 10px;
+  font-size: 11px;
   color: red;
   display: none;
 }
@@ -134,7 +134,20 @@
 }
 @media screen and (max-width: 480px) {
   .contacts-map-subwrapper {
-    width: 250px;
+    width: 230px;
     height: 180px;
+  }
+  form{
+    width: 230px;
+  }
+  .contacts-form-subsection-field{
+    width: 239px;
+  }
+  .form-control{
+    padding-left: 33px;
+    padding-right: 33px;
+  }
+  .entrybtn.form{
+    margin-left: 0px;
   }
 }
