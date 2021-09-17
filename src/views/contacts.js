@@ -40,7 +40,7 @@ const contactTemplate = (map, onSubmit) => html`
         </article>
         <article class="contacts-info-wrapper">
             <div class="contacts-info-pic">
-                <img src="/images/vkorenilishte4.jfif" alt="K_Radkov">
+                <img src="/images/portrait.jfif" alt="K_Radkov">
             </div>
             <div class="contacts-info-phone">
                 <h4>Обадете ни се </h4>
