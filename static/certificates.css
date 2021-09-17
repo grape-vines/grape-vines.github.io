@@ -1,0 +1,70 @@
+.certificates-page {
+  padding: 30px 80px;
+  background-color: white;
+  color: grey;
+}
+.certificates-title,
+.certificates-subtitle {
+  text-align: center;
+}
+
+
+.certificates-content,
+.certificates-info div {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.certificates-info-img img {
+  width: 200px;
+}
+
+.certificates-info-img.license {
+  margin-top: -20px;
+  margin-bottom: 12px;
+}
+
+.certificates-info-img.license img {
+  transform: scale(1.07);
+}
+
+.certificates-info {
+  width: 40%;
+  margin-top: 60px;
+}
+
+.certificates-info-organization {
+  padding-left: 30px;
+}
+.certificates-info-organization a {
+  color: rebeccapurple;
+}
+
+.certificates-info-organization a:hover {
+  font-weight: bold;
+  background-color: #f1f1f1;
+  border-radius: 4px;
+}
+
+@media screen and (max-width: 1200px) {
+  .certificates-page{
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  .certificates-content {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .certificates-info div {
+    flex-direction: column;
+  }
+  .certificates-info-organization {
+    padding-left: 0px;
+  }
+}

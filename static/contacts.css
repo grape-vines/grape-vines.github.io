@@ -1,0 +1,140 @@
+.contacts-page {
+  padding: 30px 80px;
+  background-color: white;
+  color: grey;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.contacts-map-subwrapper {
+  width: 600px;
+  height: 500px;
+}
+
+.contacts-form-info-wrapper {
+  width: 515px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.contacts-map-wrapper,
+.contacts-form-info-wrapper {
+  margin-top: 30px;
+}
+
+.contacts-map-wrapper,
+.form-control {
+  border-radius: 8px;
+  border: 3px solid rgb(103, 104, 126);
+}
+
+.contacts-form-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.contacts-form-subsection-field {
+  margin-top: 10px;
+  display: flex;
+  width: 300px;
+}
+
+.fas.fa-pen,
+.fas.fa-envelope,
+.fas.fa-user.form {
+  font-size: 24px;
+  padding-top: 10px;
+  color: rgb(181, 133, 12);
+}
+
+.fas.fa-pen {
+  display: inline-block;
+}
+
+.form-control {
+  margin-left: -30px;
+  padding: 10px 40px;
+  background-color: transparent;
+  width: 260px;
+}
+
+.invalid-username,
+.invalid-email,
+.invalid-content {
+  margin-top: 0;
+  font-size: 10px;
+  color: red;
+  display: none;
+}
+
+.entrybtn.form {
+  margin-left: 110px;
+  font-size: 16px;
+}
+
+.entrybtn.form:hover {
+  color: rebeccapurple;
+  background-color: #f1f1f1;
+  font-weight: bolder;
+  border-radius: 25px;
+}
+
+.contacts-info-pic {
+  max-width: 160px;
+}
+
+.contacts-info-pic img {
+  width: 100%;
+  border-radius: 6px;
+}
+
+.fa-phone-alt,
+.fa-map-marker {
+  font-size: 20px;
+  color: rgb(181, 133, 12);
+  margin-right: 10px;
+}
+
+.additional {
+  text-indent: 20px;
+}
+
+.response {
+  display: none;
+  margin-top: 52px;
+  padding: 0px 10px;
+  text-align: center;
+  border-radius: 8px;
+  border: 2px solid rgb(103, 104, 126);
+}
+
+@media screen and (max-width: 860px) {
+  .contacts-page{
+    padding: 30px 0px;
+  }
+  .contacts-map-subwrapper {
+    width: 500px;
+    height: 400px;
+  }
+}
+
+@media screen and (max-width: 630px) {
+  .contacts-map-subwrapper {
+    width: 350px;
+    height: 200px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .contacts-form-info-wrapper{
+    flex-direction: column;
+  } 
+  
+}
+@media screen and (max-width: 480px) {
+  .contacts-map-subwrapper {
+    width: 250px;
+    height: 180px;
+  }
+}

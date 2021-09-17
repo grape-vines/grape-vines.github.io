@@ -1,0 +1,42 @@
+.organizations-page {
+  padding: 30px 80px;
+  background-color: white;
+  color: grey;
+}
+.fa-angle-double-down{
+  padding-right: 30px;
+  font-size: 30px;
+  color: rebeccapurple;
+}
+.organizations-info-link {
+  padding: 10px 50px;
+}
+
+.organizations-info-link a,
+.organizations-info-link p{
+  color: rebeccapurple;
+}
+
+.organizations-info-link p{
+  margin-top: 0px;
+  margin-bottom: 0px;
+
+}
+
+.organizations-info-notes{
+  margin: 50px 50px 0px 50px;
+  padding:0px 15px;
+  color: black;
+  font-size: 14px;
+  border-radius: 8px;
+  border: 3px solid rgb(103, 104, 126);
+}
+
+@media screen and (max-width: 600px) {
+  .organizations-page{
+    padding: 30px;
+  }
+ .organizations-info-notes{
+   margin: 0px;
+ }
+}

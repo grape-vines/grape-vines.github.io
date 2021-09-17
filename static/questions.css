@@ -1,0 +1,16 @@
+.questions-page {
+  padding: 30px 150px;
+  background-color: white;
+  color: grey;
+  font-size: 0.8rem;
+}
+
+.technology-content.questions{
+  margin-bottom: 40px;
+}
+
+@media screen and (max-width: 650px) {
+  .questions-page{
+    padding: 50px;
+  }
+}
