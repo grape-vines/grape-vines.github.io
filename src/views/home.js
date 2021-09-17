@@ -9,7 +9,7 @@ const homeTemplate = () => html`
         <div class="entry-main-content">
             <article class="entry-main-content-card">
                 <div class="entry-main-content-card-img">
-                    <span><img src="/images/field1.jfif" alt="Grapevine_Nursery_Pic"></span>
+                    <span><img src="/images/field2.jfif" alt="Grapevine_Nursery_Pic"></span>
                 </div>
                 <p class="entry-main-content-card-text">
                     Нашата основна дейност е производството на качествен
@@ -40,7 +40,7 @@ const homeTemplate = () => html`
             </article>
             <article class="entry-main-content-card">
                 <div class="entry-main-content-card-img">
-                    <span><img src="/images/field2.jfif" alt="Grapevine_Nursery_Pic"></span>
+                    <span><img src="/images/logo.JPG" alt="Grapevine_Nursery_Pic"></span>
                 </div>
                 <p class="entry-main-content-card-text">
                     Разсадникът разполага със собствен маточник - базов материал SO4 и всички необходими документи.
