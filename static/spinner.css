@@ -103,3 +103,8 @@
 .spinner-element div {
   box-sizing: content-box;
 }
+@media screen and (max-width: 480px) {
+  .spinner-container {
+    padding: 50px 0px ;
+  }
+}
