@@ -7,8 +7,6 @@ const contactTemplate = (map, onSubmit) => html`
 <div class="contacts-page">
     <section class="contacts-map-wrapper">
         <div class="contacts-map-subwrapper" >
-        <!-- <div class="contacts-map-subwrapper" style="width: 600px; height: 500px;"> -->
-
             ${map}
         </div>
     </section>
