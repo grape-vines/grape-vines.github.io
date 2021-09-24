@@ -58,6 +58,9 @@
   .certificates-content {
     flex-direction: column;
   }
+  .certificates-info{
+    width: 80%;
+  }
 }
 
 @media screen and (max-width: 600px) {

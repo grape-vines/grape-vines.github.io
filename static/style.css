@@ -52,6 +52,11 @@ nav {
   border-radius: 5px;
   box-shadow: 1px 1px 3px 0px grey;
 }
+
+.logo{
+  display: flex;
+}
+
 .logo-content {
   display: flex;
   flex-direction: column;
@@ -237,15 +242,28 @@ a {
   .logo-wrapper {
     margin-right: 0px;
   }
+  
 }
 
 @media screen and (max-width: 1200px) {
   .header.nav {
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-around;
+  }
+  .logo-wrapper{
+    width: max-content;
   }
   .footer.nav {
     padding: 5px 20px;
+  }
+  .nav-list{
+    flex-direction: column;
+    margin-top: -10px;
+  }
+  .nav-list li{
+    margin-left: 0px;
+    margin-top: 20px;
+    width: 160px;
   }
 }
 
@@ -268,29 +286,17 @@ a {
 }
 
 @media screen and (max-width: 800px) {
-  .logo-wrapper{
+  .logo{
     flex-direction: column;
   }
-  .nav-list{
-    flex-direction: column;
-    margin-top: -10px;
-  }
-  .nav-list li{
-    margin-left: 0px;
-    margin-top: 20px;
-    width: 160px;
-  }
-  
 }
 
-@media screen and (max-width: 480px) {
-  footer,header{
-    margin: 0px;
+@media screen and (max-width:625px){
+  
+  .header.nav{
+    justify-content: space-around;
   }
-  .main-container {
-    margin-left: 30px;
-    margin-right: 30px;
-  } 
+  
   .logo-content-text{
     margin-top: 0px;
     font-size: 18px;
@@ -302,18 +308,41 @@ a {
     padding-left: 0px;
     padding-right: 0px;
   }
-  .homeLink{
-    display: none;
-  }
   .nav-list{
     margin-left: 15px;
   }
   .nav-list li{
     width: 100px;
   }
+}
+@media screen and (max-width: 492px){
+  .logo-wrapper{
+    width: 30%;
+  }
+  .header.nav{
+    justify-content:space-between;
+    align-items: stretch;
+  }
+}
+@media screen and (max-width: 480px) {
+  footer,header{
+    margin: 0px;
+  }
+  .homeLink{
+    padding-right: 10px;
+  }
+  .main-container {
+    margin-left: 30px;
+    margin-right: 30px;
+  } 
   .dropbtn.contact{
     padding: 15px 6px 0px 6px;
   }
 
+}
+@media screen and (max-width: 480px){
+  .logo-img img{
+    width: 80px;
+  }
 }
 
